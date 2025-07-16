@@ -1,1 +1,1 @@
-A bare-bones recipe site which serves as a better git test on this machine
+A bare-bones recipe site which serves as a better git test/html test on this machine
