@@ -1,1 +1,1 @@
-# website-test
+A bare-bones recipe site which serves as a better git test on this machine
