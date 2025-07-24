@@ -1,0 +1,72 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+img {
+    border: 5px;
+    border-style: dashed;
+}
+
+.pork-chops img {
+    border-color: green;
+}
+
+.french-toast img {
+    border-color: brown;
+}
+
+.home {
+    background: linear-gradient(green, brown) fixed;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.home ul {
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+}
+
+.pork-chops,
+.french-toast {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pork-chops {
+    background: radial-gradient(aquamarine, grey, white) fixed;
+}
+
+.french-toast {
+    background: radial-gradient(yellow, grey, white) fixed;
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+}
+
+#funk {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    animation: shadow-dance 2s infinite;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
+    }
+}
